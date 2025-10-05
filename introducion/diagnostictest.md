@@ -107,7 +107,7 @@ class Cell<T> implements IComponent<T> {
 }
 class Box<T> implements IComponent<T> {
     private children: IComponent<T>[] = [];
-
+  
     add(component: IComponent<T>): void {
         this.children.push(component);
     }
