@@ -23,7 +23,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 | **Adapter** | Permite que interfaces incompatibles trabajen juntas | Cuando necesitas usar una clase con interfaz incompatible |
 | [**Composite**](./Composite/) | Compone objetos en estructuras de árbol | Cuando necesitas tratar objetos individuales y composiciones uniformemente |
 | **Bridge** | Separa abstracción de implementación | Cuando quieres evitar una explosión de subclases |
-| **Decorator** | Añade responsabilidades a objetos dinámicamente | Cuando necesitas extender funcionalidades sin usar herencia |
+| [**Decorator**](./Decorator/) | Añade responsabilidades a objetos dinámicamente | Cuando necesitas extender funcionalidades sin usar herencia |
 | [**Facade**](./Facade/) | Proporciona interfaz simplificada a un subsistema | Cuando quieres simplificar el acceso a un sistema complejo |
 | **Flyweight** | Optimiza memoria compartiendo objetos | Cuando tienes muchos objetos similares y quieres reducir memoria |
 | [**Proxy**](./Proxy/) | Proporciona sustituto o marcador de posición | Cuando necesitas controlar el acceso a un objeto |
@@ -102,7 +102,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 
 ---
 
-### 4. Decorator (Decorador)
+### 4. [Decorator (Decorador)](./Decorator/)
 
 **Problema que resuelve**: Necesitas añadir responsabilidades a objetos sin afectar a otros objetos.
 
@@ -113,7 +113,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 - Componentes de UI con efectos (scroll, border)
 - Middleware en aplicaciones web
 
-**Estado**: _Próximamente_
+[📖 Ver documentación completa →](./Decorator/)
 
 ---
 
@@ -317,11 +317,11 @@ Cada patrón incluye:
 - [📦 Patrones Creacionales](../Creacionales/)
 - 📐 **Patrones Estructurales** (estás aquí)
   - [Composite](./Composite/)
+  - [Decorator](./Decorator/)
   - [Facade](./Facade/)
   - [Proxy](./Proxy/)
   - Adapter _(próximamente)_
   - Bridge _(próximamente)_
-  - Decorator _(próximamente)_
   - Flyweight _(próximamente)_
 - [🔄 Patrones de Comportamiento](../Comportamiento/)
 
