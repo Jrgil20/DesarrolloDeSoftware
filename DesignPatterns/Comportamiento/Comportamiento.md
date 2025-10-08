@@ -21,16 +21,16 @@ Los **patrones de comportamiento** se encargan de los algoritmos y la asignació
 | Patrón | Propósito Principal | Cuándo Usarlo |
 |--------|---------------------|---------------|
 | [**Chain of Responsibility**](./ChainOfResponsibility/) | Pasa solicitudes a través de una cadena de manejadores | Cuando múltiples objetos pueden manejar una solicitud |
-| **Command** | Encapsula una solicitud como un objeto | Cuando necesitas parametrizar acciones, deshacer/rehacer |
-| **Interpreter** | Define gramática para un lenguaje | Cuando necesitas interpretar un lenguaje especializado |
+| [**Command**](./Command/) | Encapsula una solicitud como un objeto | Cuando necesitas parametrizar acciones, deshacer/rehacer |
+| [**Interpreter**](./Interpreter/) | Define gramática para un lenguaje | Cuando necesitas interpretar un lenguaje especializado |
 | [**Iterator**](./Iterator/) | Accede secuencialmente a elementos de una colección | Cuando necesitas recorrer colecciones sin exponer estructura |
-| **Mediator** | Define un objeto que encapsula cómo interactúan objetos | Cuando tienes muchas interacciones complejas entre objetos |
-| **Memento** | Captura y restaura el estado de un objeto | Cuando necesitas deshacer/rehacer operaciones |
-| **Observer** | Notifica cambios a múltiples objetos | Cuando cambios en un objeto deben reflejarse en otros |
+| [**Mediator**](./Mediator/) | Define un objeto que encapsula cómo interactúan objetos | Cuando tienes muchas interacciones complejas entre objetos |
+| [**Memento**](./Memento/) | Captura y restaura el estado de un objeto | Cuando necesitas deshacer/rehacer operaciones |
+| [**Observer**](./Observer/) | Notifica cambios a múltiples objetos | Cuando cambios en un objeto deben reflejarse en otros |
 | [**State**](./State/) | Cambia comportamiento según el estado interno | Cuando el comportamiento depende del estado |
 | [**Strategy**](./Strategy/) | Encapsula algoritmos intercambiables | Cuando tienes múltiples variantes de un algoritmo |
 | [**Template Method**](./TemplateMethod/) | Define esqueleto de algoritmo en clase base | Cuando tienes pasos comunes pero implementaciones variables |
-| **Visitor** | Define nuevas operaciones sin cambiar clases | Cuando necesitas añadir operaciones a una estructura de objetos |
+| [**Visitor**](./Visitor/) | Define nuevas operaciones sin cambiar clases | Cuando necesitas añadir operaciones a una estructura de objetos |
 
 ---
 
@@ -411,16 +411,16 @@ Cada patrón incluye:
 - [📐 Patrones Estructurales](../Estructurales/)
 - 🔄 **Patrones de Comportamiento** (estás aquí)
   - [Chain of Responsibility](./ChainOfResponsibility/)
+  - [Command](./Command/)
+  - [Interpreter](./Interpreter/)
   - [Iterator](./Iterator/)
+  - [Mediator](./Mediator/)
+  - [Memento](./Memento/)
+  - [Observer](./Observer/)
   - [State](./State/)
   - [Strategy](./Strategy/)
   - [Template Method](./TemplateMethod/)
-  - Command _(próximamente)_
-  - Interpreter _(próximamente)_
-  - Mediator _(próximamente)_
-  - Memento _(próximamente)_
-  - Observer _(próximamente)_
-  - Visitor _(próximamente)_
+  - [Visitor](./Visitor/)
 
 ### Otros Recursos
 

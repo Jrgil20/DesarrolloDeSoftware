@@ -20,12 +20,12 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 
 | Patrón | Propósito Principal | Cuándo Usarlo |
 |--------|---------------------|---------------|
-| **Adapter** | Permite que interfaces incompatibles trabajen juntas | Cuando necesitas usar una clase con interfaz incompatible |
+| [**Adapter**](./Adapter/) | Permite que interfaces incompatibles trabajen juntas | Cuando necesitas usar una clase con interfaz incompatible |
+| [**Bridge**](./Bridge/) | Separa abstracción de implementación | Cuando quieres evitar una explosión de subclases |
 | [**Composite**](./Composite/) | Compone objetos en estructuras de árbol | Cuando necesitas tratar objetos individuales y composiciones uniformemente |
-| **Bridge** | Separa abstracción de implementación | Cuando quieres evitar una explosión de subclases |
 | [**Decorator**](./Decorator/) | Añade responsabilidades a objetos dinámicamente | Cuando necesitas extender funcionalidades sin usar herencia |
 | [**Facade**](./Facade/) | Proporciona interfaz simplificada a un subsistema | Cuando quieres simplificar el acceso a un sistema complejo |
-| **Flyweight** | Optimiza memoria compartiendo objetos | Cuando tienes muchos objetos similares y quieres reducir memoria |
+| [**Flyweight**](./Flyweight/) | Optimiza memoria compartiendo objetos | Cuando tienes muchos objetos similares y quieres reducir memoria |
 | [**Proxy**](./Proxy/) | Proporciona sustituto o marcador de posición | Cuando necesitas controlar el acceso a un objeto |
 
 ---
@@ -56,7 +56,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 
 ## Patrones Estructurales en Detalle
 
-### 1. Adapter (Adaptador)
+### 1. [Adapter (Adaptador)](./Adapter/)
 
 **Problema que resuelve**: Necesitas usar una clase cuya interfaz no coincide con la que necesitas.
 
@@ -68,7 +68,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 - Trabajar con APIs legadas
 - Sistemas de logging con diferentes interfaces
 
-**Estado**: _Próximamente_
+[📖 Ver documentación completa →](./Adapter/)
 
 ---
 
@@ -87,7 +87,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 
 ---
 
-### 3. Bridge (Puente)
+### 3. [Bridge (Puente)](./Bridge/)
 
 **Problema que resuelve**: Evitar una explosión de subclases cuando tienes múltiples dimensiones de variación.
 
@@ -98,7 +98,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 - Drivers de bases de datos
 - Sistemas de renderizado (formas + colores)
 
-**Estado**: _Próximamente_
+[📖 Ver documentación completa →](./Bridge/)
 
 ---
 
@@ -132,7 +132,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 
 ---
 
-### 6. Flyweight (Peso Ligero)
+### 6. [Flyweight (Peso Ligero)](./Flyweight/)
 
 **Problema que resuelve**: Muchos objetos similares consumen demasiada memoria.
 
@@ -143,7 +143,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 - Partículas en videojuegos
 - Objetos de cache compartidos
 
-**Estado**: _Próximamente_
+[📖 Ver documentación completa →](./Flyweight/)
 
 ---
 
@@ -316,13 +316,13 @@ Cada patrón incluye:
 
 - [📦 Patrones Creacionales](../Creacionales/)
 - 📐 **Patrones Estructurales** (estás aquí)
+  - [Adapter](./Adapter/)
+  - [Bridge](./Bridge/)
   - [Composite](./Composite/)
   - [Decorator](./Decorator/)
   - [Facade](./Facade/)
+  - [Flyweight](./Flyweight/)
   - [Proxy](./Proxy/)
-  - Adapter _(próximamente)_
-  - Bridge _(próximamente)_
-  - Flyweight _(próximamente)_
 - [🔄 Patrones de Comportamiento](../Comportamiento/)
 
 ### Otros Recursos
