@@ -24,9 +24,9 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 | [**Composite**](./Composite/) | Compone objetos en estructuras de árbol | Cuando necesitas tratar objetos individuales y composiciones uniformemente |
 | **Bridge** | Separa abstracción de implementación | Cuando quieres evitar una explosión de subclases |
 | **Decorator** | Añade responsabilidades a objetos dinámicamente | Cuando necesitas extender funcionalidades sin usar herencia |
-| **Facade** | Proporciona interfaz simplificada a un subsistema | Cuando quieres simplificar el acceso a un sistema complejo |
+| [**Facade**](./Facade/) | Proporciona interfaz simplificada a un subsistema | Cuando quieres simplificar el acceso a un sistema complejo |
 | **Flyweight** | Optimiza memoria compartiendo objetos | Cuando tienes muchos objetos similares y quieres reducir memoria |
-| **Proxy** | Proporciona sustituto o marcador de posición | Cuando necesitas controlar el acceso a un objeto |
+| [**Proxy**](./Proxy/) | Proporciona sustituto o marcador de posición | Cuando necesitas controlar el acceso a un objeto |
 
 ---
 
@@ -117,7 +117,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 
 ---
 
-### 5. Facade (Fachada)
+### 5. [Facade (Fachada)](./Facade/)
 
 **Problema que resuelve**: Un subsistema complejo es difícil de usar.
 
@@ -128,7 +128,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 - Simplificar interacciones con bibliotecas
 - Puntos de entrada únicos a subsistemas
 
-**Estado**: _Próximamente_
+[📖 Ver documentación completa →](./Facade/)
 
 ---
 
@@ -147,7 +147,7 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 
 ---
 
-### 7. Proxy (Apoderado)
+### 7. [Proxy (Apoderado)](./Proxy/)
 
 **Problema que resuelve**: Necesitas controlar el acceso a un objeto.
 
@@ -157,13 +157,15 @@ Los **patrones estructurales** se encargan de cómo componer clases y objetos pa
 - **Virtual Proxy**: Creación perezosa de objetos costosos
 - **Remote Proxy**: Representante local de objeto remoto
 - **Protection Proxy**: Control de acceso basado en permisos
+- **Caching Proxy**: Almacena resultados de operaciones costosas
+- **Smart Reference**: Acciones adicionales al acceder al objeto
 
 **Casos de uso**:
 - Lazy loading de imágenes
 - Proxies de bases de datos remotas
 - Control de acceso y seguridad
 
-**Estado**: _Próximamente_
+[📖 Ver documentación completa →](./Proxy/)
 
 ---
 
@@ -315,12 +317,12 @@ Cada patrón incluye:
 - [📦 Patrones Creacionales](../Creacionales/)
 - 📐 **Patrones Estructurales** (estás aquí)
   - [Composite](./Composite/)
+  - [Facade](./Facade/)
+  - [Proxy](./Proxy/)
   - Adapter _(próximamente)_
   - Bridge _(próximamente)_
   - Decorator _(próximamente)_
-  - Facade _(próximamente)_
   - Flyweight _(próximamente)_
-  - Proxy _(próximamente)_
 - [🔄 Patrones de Comportamiento](../Comportamiento/)
 
 ### Otros Recursos
